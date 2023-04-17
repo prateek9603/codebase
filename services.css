@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-weight: 700; */
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    margin: 45px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image img{
+    width: 134px;
+    height: 27px;
+}
+.headlist ul{
+    display: flex;
+    justify-content: space-around;
+}
+.headlist ul li a{
+    margin: 0 8px;
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+}
+.headlist ul li {
+    margin: 0 8px;
+    list-style:none;
+    
+}
+#hire a{
+    background-color: blue;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.sec-1{
+    margin: 60px 10px 0;
+}
+.sec1-head{
+    text-align: center;
+    font-size: 24px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.boxes li{
+    list-style: none;
+    width: 30%;
+    text-align: center;
+}
+.box{
+    padding: 30px;
+    /* margin: 30px; */
+    /* border: 1px solid #000; */
+}
+.box p{
+color: #444444;
+padding: 15px 0;
+}
+.image-box{
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    border: #eee 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sec-2{
+    background-color: #6032ff;
+    margin: 60px 0;
+}
+.sec-2 img{
+    padding: 0 130px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.sec-3{
+    text-align: center;
+    margin: 40px 0;
+    padding: 30px;
+}
+.sec-3 h2 ,p{
+    padding: 15px 0;
+    /* margin-top: 16px; */
+}
+.sec-3 p{
+    margin-bottom: 30px;
+}
+.sec-3 div a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #6032ff;
+    border-radius: 12px;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer2{
+    background-color: #4E0FEA;
+    padding: 100px;
+}
+.foot{
+    display: flex;
+    border-top: 1px white solid;
+    justify-content: space-between;
+}
+.foot-image {
+    width: 196px;
+    height: 100px;
+}
+.foot-image img{
+    width: 100%;
+    height: 100%;
+}
+.foot ul{
+    display: flex;
+    padding: 16px;
+}
+.foot ul li{
+    list-style: none;
+}
+.foot ul li a {
+    color: #fff ;
+    margin: 5px 10px;
+}
+.foot p{
+    color: #fff;
+    font-size: 12px;
+}
+.sub-foot-2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
